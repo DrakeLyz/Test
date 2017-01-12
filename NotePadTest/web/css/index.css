@@ -1,0 +1,111 @@
+body{
+    background-color: #E5E5E5;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.title{
+float: left;
+    font-size: 30px;
+}
+.reply-btn{
+    float: right;
+    margin-right: 20px;
+}
+.wrapper{
+    margin-top: 50px;
+}
+.container{
+    width: 80%;
+
+}
+.personal-info{
+    float: left;
+    width: 30%;
+    height: 300px;
+    border: solid 1px;
+    border-color: #BBBDBF;
+}
+.other-info{
+    float: left;
+    width: 30%;
+    height: 300px;
+    border: solid 1px;
+    border-color: #BBBDBF;
+}
+.info {
+    background-color: #FAFBFC;
+    padding-top: 40px;
+    padding-right: 50px;
+    height: 300px;
+    color: #77777b;
+
+}
+.mymessage-editor{
+margin-top:160px ;
+}
+.my-message{
+    float: right;
+    width: 70%;
+    border: solid 1px;
+    border-color: #BBBDBF;
+    height: 300px;
+    background-color: white;
+}
+.mymessage-wrapper{
+    margin-left: 50px;
+}
+.delete-btn{
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+.message-content{
+    height: 300px;
+    width: 100%;
+    float: right;
+    border: solid 1px;
+    border-color: #BBBDBF;
+}
+.message-text{
+    margin-left: 40px;
+    padding-top: 30px;
+    font-size: 22px;
+    clear:both;
+
+}
+.message-right{
+    float: right;
+    width: 70%;
+    background-color: white;
+}
+.message-part{
+    float: right;
+   padding-top: 204px;
+    padding-right: 30px;
+}
+.reply{
+    background-color: #F3F3F3;
+    clear: both;
+    border: solid 2px;
+    border-color: #BBBDBF;
+
+}
+.reply-text{
+    width: 80%;
+    padding-left: 200px;
+
+}
+.reply-show{
+    margin-top: 20px;
+}
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.reply-title{
+    font-size: 25px;
+    padding-top: 20px;
+}
