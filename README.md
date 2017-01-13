@@ -10,7 +10,7 @@
 		Hello，我是`Drake`。
 		欢迎到访
 		很高兴见到您
-		`Good luck` ！	<br>
+		`Good luck` ！:blush::blush::blush::blush::blush:	<br>
 [我的博客](http://www.cnblogs.com/drake0301 "www.cnblogs.com/drake0301")<br>
 ```python
 print('Hello,GitHub.')
