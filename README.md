@@ -7,7 +7,7 @@
 这是一个普通的文本，
 直接回车不能换行，<br>
 要使用\<br>
-		Hello，我是Drake。
+		Hello，我是`Drake`。
 		欢迎到访
 		很高兴见到您
-		Good luck ！	
+		`Good luck` ！	
