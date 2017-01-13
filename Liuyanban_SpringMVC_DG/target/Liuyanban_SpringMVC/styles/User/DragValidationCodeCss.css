@@ -1,0 +1,94 @@
+﻿@charset "utf-8";
+
+/*验证码拖拽部分辅助*/
+.d_DragValidAssistant{
+	position:absolute;
+	width:350px;
+	height:200px;
+	visibility:hidden;
+	}
+/*背景图片的容器*/
+.d_DragValidAssistant .d_BackImageBox{
+	position:absolute;
+	width:300px;
+	height:200px;
+	background:url(/images/User/Login/BackImageBox.png);
+	}
+/*背景图片展示部分*/
+.d_DragValidAssistant .d_BackImageBox .d_BackImage{
+	position:absolute;
+	z-index:5;
+	width:280px;
+	height:160px;
+	top:10px;
+	left:10px;
+		
+	background:url(/images/User/Login/validPic3.png);
+	}
+
+/*背景变黑的块*/
+.d_DragValidAssistant .d_BackImageBox .d_BackImage .d_back{
+	position:absolute;
+	z-index:6;
+	width:40px;
+	height:40px;
+	top:50px;
+	left:200px;
+	opacity:0.6;
+	background:#000000;
+		}	
+/*主要验证块*/
+.d_DragValidAssistant .d_BackImageBox .d_BackImage .d_move{
+	position: absolute;
+	z-index: 6;
+	width: 40px;
+	height: 40px;
+	top: 50px;
+	left: 0px;
+	background-position: 80px 110px;
+	background-image: url(/images/User/Login/validPic3.png);
+		}
+/*验证码操作提示部分*/
+.d_DragValidAssistant .d_BackImageBox .d_Operation{
+	position:absolute;
+	z-index:5;
+	width:280px;
+	height:30px;
+	top:170px;
+	left:10px;
+		}
+.d_DragValidAssistant .d_BackImageBox .d_Operation .d_reset{
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:5px;
+		left:10px;
+		cursor:pointer;
+		background:url(/images/User/Login/reset.png);
+		}
+.d_DragValidAssistant .d_BackImageBox .d_Operation .sp_Time{
+		position:absolute;
+		width:200px;
+		height:20px;
+		top:5px;
+		left:80px;
+		font-weight:bolder;
+		font-family:"Trebuchet MS";
+		}
+/*验证码主要拖拽部分*/
+.d_DragValidMain{
+	position:absolute;
+	width:350px;
+	height:40px;
+	top:170px;
+	background:url(/images/User/Login/valid_0.png);
+	}
+/*拖拽部分*/
+.d_DragValidMain .d_Slider{
+	position:absolute;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	left:10px;
+	background:url(/images/User/Login/button_stop.png)
+	}
