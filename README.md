@@ -11,4 +11,4 @@
 		欢迎到访
 		很高兴见到您
 		`Good luck` ！	<br>
-[我的博客]（http://www.baidu.com）
+[我的博客](http://www.baidu.com)
